@@ -1,8 +1,8 @@
 [style name="visualNovel"]
 [sound path="res://sound assets/bellChime.mp3" volume="0.0"]
-join bear-san center
 [wait time="1.0"]
-My first customer!
+join bear-san center
+[i]My first customer![/i]
 Welcome!
 bear-san (neutral): Hello~
 How can I help you?
@@ -19,7 +19,7 @@ bear-san (sad): Last week, he ordered for all the flowers in the kingdom to be d
 bear-san (neutral): He exploded them.
 bear-san (happy): So I was wondering if I could purchase a potion to regrow my flowers in time for the festival.
 I’m always happy to help, but…
-Wouldn’t that be in defiance of the king?
+[i]Wouldn’t that be in defiance of the king?[/i]
 bear-san (neutral): His suggested alternative was to instead cover the town in his likeness and host a festival to celebrate him.
 bear-san (sad): Do you know how much work it would take to paint even one portrait of the king, let alone enough to fill the kingdom? Do you know how picky he is?
 bear-san (sad): It took me one year before he was satisfied with the portrait I made for him! The flower festival is next month!
@@ -28,34 +28,33 @@ Let me see what I have!
 [wait time="1.0"]
 - Potion of Revival
 # Potion of Revival: He does make a good point. I should help the guild put on the flower festival despite the King’s allergies! 
-	set {antiKingPoints} += 1
-	You can use this potion of revival to bring your flowers back to life!
-	bear-san (happy): This is perfect! Thank you so much!
-	bear-san (neutral): The guild will be overjoyed to hear that the flower festival is back on!
-	bear-san (neutral): How much do I owe you?
-	1 dabloon please!
-	bear-san (neutral): Of course! Thank you again!
-	Feel free to take a candy on your way out!
-	leave bear-san
-	[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
-	I’m glad I was able to help the artist’s guild! Who knows if we ever would have had the flower festival again if it was canceled this year?
-	Though I am afraid of how the King will react to this news…
-	I hope everything goes well!
+set {antiKingPoints} += 1
+You can use this potion of revival to bring your flowers back to life!
+bear-san (happy): This is perfect! Thank you so much!
+bear-san (neutral): The guild will be overjoyed to hear that the flower festival is back on!
+bear-san (neutral): How much do I owe you?
+1 dabloon please!
+bear-san (neutral): Of course! Thank you again!
+Feel free to take a candy on your way out!
+leave bear-san
+[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+[i]I’m glad I was able to help the artist’s guild! Who knows if we ever would have had the flower festival again if it was canceled this year?[/i]
+[i]Though I am afraid of how the King will react to this news…[/i]
+[i]I hope everything goes well![/i]
 
 - Potion of Endurance
 # Potion of Endurance: I don’t want to defy the King… Maybe this can help the guild complete his portraits in time?
-	How about a potion of endurance?
-	By drinking this, you and the rest of your guild should have enough energy to complete his portraits in time! And it wouldn’t upset the king.
-	bear-san (neutral): Hmm, I suppose you’re right. Best not to go against his wishes.
-	bear-san (neutral): How much do I owe you?
-	1 dabloon please!
-	bear-san (neutral): Thank you! Have a nice day~
-	Feel free to take a candy on your way out!
-	leave bear-san
-	[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
-	It’s too bad about the flower festival, and I feel bad for the guild.
-	Though I’m more afraid of the King…
-	I hope everything goes well!
+How about a potion of endurance?
+By drinking this, you and the rest of your guild should have enough energy to complete his portraits in time! And it wouldn’t upset the king.
+bear-san (neutral): Hmm, I suppose you’re right. Best not to go against his wishes.
+bear-san (neutral): How much do I owe you?
+1 dabloon please!
+bear-san (neutral): Thank you! Have a nice day~
+Feel free to take a candy on your way out!
+leave bear-san
+[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+[i]It’s too bad about the flower festival, and I feel bad for the guild.[/i]
+[i]Though I’m more afraid of the King...[/i]
+[i]I hope everything goes well![/i]
 
 jump rat/
-[background fade="0.0"]

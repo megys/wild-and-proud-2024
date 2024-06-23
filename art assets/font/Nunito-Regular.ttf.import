@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://b084ehlt53fnu"
-path="res://.godot/imported/Comfortaa-VariableFont_wght.ttf-344c31c42f950d2b6c2c5e4d9ab843be.fontdata"
+uid="uid://cp2hs623a0i6s"
+path="res://.godot/imported/Nunito-Regular.ttf-f9218c4f7137a73eb6e29ba783f637f3.fontdata"
 
 [deps]
 
-source_file="res://art assets/font/Comfortaa-VariableFont_wght.ttf"
-dest_files=["res://.godot/imported/Comfortaa-VariableFont_wght.ttf-344c31c42f950d2b6c2c5e4d9ab843be.fontdata"]
+source_file="res://art assets/font/Nunito-Regular.ttf"
+dest_files=["res://.godot/imported/Nunito-Regular.ttf-f9218c4f7137a73eb6e29ba783f637f3.fontdata"]
 
 [params]
 

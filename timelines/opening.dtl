@@ -3,7 +3,7 @@
 set {antiKingPoints} = 0
 # once you get 2 points you unlock the good end
 
-[i]Today’s my first day as the kingdoms's alchemist![/i]
+Today’s my first day as the kingdoms's alchemist!
 
 This alchemy shop has been in my family for generations.
 
@@ -12,7 +12,9 @@ We’ve served the good people of this kingdom for hundreds of years\: keeping c
 And since Uncle went missing, it’s finally my turn to run the shop!
 
 I just hope I can do a good job.
+[wait time="1.0"]
 
 
 
 jump bear/
+[style]
