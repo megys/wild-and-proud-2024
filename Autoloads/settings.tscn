@@ -2,30 +2,23 @@
 
 [ext_resource type="Script" path="res://Autoloads/settings.gd" id="1_67mfn"]
 
-[node name="Settings" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Settings" type="CanvasLayer"]
+layer = 5
 script = ExtResource("1_67mfn")
 
 [node name="HSlider" type="HSlider" parent="."]
 unique_name_in_owner = true
-layout_mode = 2
-offset_left = 7.0
-offset_top = 69.0
-offset_right = 346.0
-offset_bottom = 85.0
+visible = false
+offset_left = 5.0
+offset_top = 63.0
+offset_right = 344.0
+offset_bottom = 79.0
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
-layout_mode = 0
 offset_right = 111.0
 offset_bottom = 87.0
 
 [node name="Button" type="Button" parent="."]
-layout_mode = 0
 offset_right = 76.0
 offset_bottom = 52.0
 
