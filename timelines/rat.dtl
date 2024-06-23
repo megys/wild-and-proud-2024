@@ -1,6 +1,7 @@
-# insert manny transition
+[style name="visualNovel"]
+[background arg="res://art assets/IMG_4407.png" fade="1.0"]
 
-[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
 [i]Another customer![/i]
 [wait_input]
@@ -36,13 +37,13 @@ Ok, I think I can help you!
 - Potion of Ice
 	
 	# #Potion of Ice\: The king was right, this rat spells danger for us all, I will end the rats spice career…
-	He rips the potion out of my hand before I even have a chance to say anything
+	He rips the potion out of my hand before I even have a chance to say anything.
 	*takes sip*
 	join mouse-san (neutral) center
 	His eyes look as if an Ice Age has run its course, one thousand times over - but merely over the course of a second.
 	leave mouse-san
 	I feel my fingertips get warmer for every footfall he takes towards the door.
-	[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 	I think his days of doing business in a kitchen are over.
 	Even working in an ice cream shop now will warm him on the most bitter cold of days...
 	[wait time="1.0"]
@@ -51,7 +52,7 @@ Ok, I think I can help you!
 	# #Potion of Fire\: I feel bad about his small business… I should give the rat the fire to blaze his kitchen anew
 	set {antiKingPoints} += 1
 	join mouse-san (neutral) center
-	He rips the potion out of my hand before I even have a chance to say anything
+	He rips the potion out of my hand before I even have a chance to say anything.
 	*takes sip*
 	join mouse-san (angry) center
 	WHAT... Why in god's green earth WOULD YOU GIVE ME THIS WEAK SH**!!
@@ -61,7 +62,8 @@ Ok, I think I can help you!
 	leave mouse-san
 	[wait time="1.0"]
 	Did I just get robbed?
-	[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 
-
+[background arg="res://art assets/black.png" fade="1.0"]
+[wait time="1.0"]
 jump prince/

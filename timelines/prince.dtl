@@ -1,15 +1,66 @@
-# #insert manny transition
-[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+[style name="visualNovel"]
+[background arg="res://art assets/IMG_4407.png" fade="1.0"]
+
+[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
 join bear-san center
+[i]The Prince?![/i]
+Hello, your highness! What brings you here to my humble shop?
+frog-sama: I am in desp'rate necessity of thy assistance.
+frog-sama: I am in the throes of a love which cannot be.
+frog-sama: The course of true love never did run smooth…
+frog-sama: Nevertheless, my love for him is stronger than the tides, more persistent than daybreak, and even sweeter than the pastries in his bakery.
+The baker? You’re in love with Mr. Toad?
+[i] That's such tea! [/i]
+frog-sama: It is so. Our love burns so bright that even the heavens above taketh notice.
+frog-sama: But mine father shall not alloweth me to date a commoner. 
+frog-sama: I can't beest did hold backeth aught longer! I must escapeth tonight! To meeteth mine loveth in the moonlight!  
+frog-sama: Doth thee has't a elixir yond can aid in mine endeavor?
+I’m sure I have something but… what will the King say when he finds you missing?
+frog-sama: Mine father wouldst beest outraged, but yond is a bawbling price to payeth for true love.
+[i]I can’t say no to the prince...[/i]
+[i]But how can I oppose the king’s word?[/i]
 
-
-
-leave bear-san
-[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
 [wait time="1.0"]
 - potion of invisibility
+	# #Potion of Invisibility: I should support the prince and his love! This should help him escape.
 	set {helpedPrince} = true
 	set {antiKingPoints} += 1
+	Please take this potion of invisibility!
+	The two of you should take this right before you make your escape.
+	frog-sama: I can no other answer make but thanks, and thanks, and ever thanks.
+	*He hands you a velvet pouch, heavy with dabloons*
+	Wow! Thank you, your highness!
+	frog-sama: There is thy gold, worse poison to men’s souls. Doing more murder in this loathsome world, Than these poor compounds that thou mayst not sell…
+	frog-sama: Toad, mine love, we shalt beest togeth'r soon!
+	frog-sama: With love's light wings did I o'erperch these walls, for stony limits cannot hold love out, And what love can do, that dares love attempt.
+	
+	leave bear-san
+	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
+	
+	[i]I hope that their love will prevail![/i]
+	[i]But what should I do if the King finds out I helped them?![/i]
+	[i]To flee or not to flee, that is the question.[/i]
+
 - potion of sleep
+	# Potion of Sleep: Who knows what would happen to the kingdom if the prince goes missing. I’ll have to trick him…
+	Please take this potion of... umm...
+	...
+	Invisibility!
+	The two of you should take this right before you make your escape.
+	frog-sama: I can no other answer make but thanks, and thanks, and ever thanks.
+	*He hands you a velvet pouch, heavy with dabloons*
+	Oh wow… This is too kind!
+	frog-sama: There is thy gold, worse poison to men’s souls. Doing more murder in this loathsome world, Than these poor compounds that thou mayst not sell…
+	frog-sama: Toad, mine love, we shalt beest togeth'r soon!
+	frog-sama: With love's light wings did I o'erperch these walls, for stony limits cannot hold love out, And what love can do, that dares love attempt.
+
+	leave bear-san
+	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
+
+	[i]Now the guards will surely catch them...[/i]
+	[i]I feel guilty but... I did what I had to do.[/i]
+
+[background arg="res://art assets/black.png" fade="1.0"]
+[wait time="1.0"]
 jump ending/

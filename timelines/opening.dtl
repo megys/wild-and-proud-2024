@@ -1,6 +1,7 @@
 [style name="visualNovel"]
-[background arg="res://art assets/IMG_4407.png" fade="0.0"]
+[background arg="res://art assets/IMG_4407.png" fade="1.0"]
 set {antiKingPoints} = 0
+set {helpedPrince} = false
 # once you get 2 points you unlock the good end
 
 Today’s my first day as the kingdoms's alchemist!
@@ -12,9 +13,6 @@ We’ve served the good people of this kingdom for hundreds of years\: keeping c
 And since Uncle went missing, it’s finally my turn to run the shop!
 
 I just hope I can do a good job.
+
 [wait time="1.0"]
-
-
-
 jump bear/
-[style]
