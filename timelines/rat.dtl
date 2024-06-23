@@ -1,2 +1,6 @@
 mouse-san: THE SPICES!
+[wait time="1.0"]
+- potion of ice
+- potion of fire
+	set {antiKingPoints} += 1
 jump prince/

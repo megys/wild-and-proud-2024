@@ -1,2 +1,7 @@
 frog-sama: I want to be with my loveeee
+[wait time="1.0"]
+- potion of invisibility
+	set {helpedPrince} = true
+	set {antiKingPoints} += 1
+- potion of sleep
 jump ending/

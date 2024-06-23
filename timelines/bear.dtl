@@ -1,2 +1,7 @@
 bear-san: Hiiiii!
+[wait time="1.0"]
+- potion of growth
+	set {antiKingPoints} += 1
+
+- potion of endurance
 jump rat/

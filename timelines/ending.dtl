@@ -1,2 +1,13 @@
 king-sama: I heard you been lurking....
-[end_timeline]
+king-sama: I also heard my son visited here the other night
+if {helpedPrince} == true:
+	king-sama: Seems like he somehow got his hands on a potion of invisibility...
+	king-sama: I'm guessing you might know something about that, now wouldn't you?
+else:
+	king-sama: He thought he had a potion of invisibility, but turns out it was a potion of sleep.
+	king-sama: His lover was found waiting outside. We captured him of course.
+	king-sama: No son of mine will be dating a commoner!
+if {antiKingPoints} >= 2:
+	jump goodend/
+else:
+	jump badend/

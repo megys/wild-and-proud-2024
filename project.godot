@@ -27,15 +27,20 @@ directories/dch_directory={
 "mouse-san": "res://characters/mouse-san.dch"
 }
 directories/dtl_directory={
+"badend": "res://timelines/badend.dtl",
 "bear": "res://timelines/bear.dtl",
 "ending": "res://timelines/ending.dtl",
+"goodend": "res://timelines/goodend.dtl",
 "opening": "res://timelines/opening.dtl",
 "prince": "res://timelines/prince.dtl",
 "rat": "res://timelines/rat.dtl"
 }
-layout/style_list=[]
-layout/default_style="Default"
-variables={}
+layout/style_list=["res://custom/visualNovel.tres", "res://custom/blob.tres"]
+layout/default_style=""
+variables={
+"antiKingPoints": 0,
+"helpedPrince": false
+}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
