@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj0rrnhelvm4v"
+path="res://.godot/imported/Call It, Friend-O - No Country for Old Men (211) Movie CLIP (2007) HD.mp3-cdcc8de6c1c393c525a887ec05f0f480.mp3str"
+
+[deps]
+
+source_file="res://Call It, Friend-O - No Country for Old Men (211) Movie CLIP (2007) HD.mp3"
+dest_files=["res://.godot/imported/Call It, Friend-O - No Country for Old Men (211) Movie CLIP (2007) HD.mp3-cdcc8de6c1c393c525a887ec05f0f480.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
