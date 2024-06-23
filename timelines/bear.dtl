@@ -1,4 +1,6 @@
-bear-san: Hiiiii!
+join bear-san center
+My first customer!
+bear-san (neutral): Hiiiii!
 [wait time="1.0"]
 - potion of growth
 	set {antiKingPoints} += 1

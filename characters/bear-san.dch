@@ -8,12 +8,40 @@
 "sound_moods": {},
 "style": ""
 },
-"default_portrait": "",
+"default_portrait": "neutral",
 "description": "florist working for the artist's guild",
 "display_name": "bear-san",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 0),
-"portraits": {},
+"portraits": {
+"happy": {
+"export_overrides": {
+"image": "\"res://art assets/characters/bear/IMG_4411.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"neutral": {
+"export_overrides": {
+"image": "\"res://art assets/characters/bear/IMG_4410.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://art assets/characters/bear/IMG_4412.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 "scale": 1.0
 }
