@@ -1,3 +1,6 @@
+[style name="visualNovel"]
+# #insert manny transition
+
 king-sama: I heard you been lurking....
 king-sama: I also heard my son visited here the other night
 if {helpedPrince} == true:

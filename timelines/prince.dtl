@@ -1,4 +1,11 @@
+[style name="visualNovel"]
+# #insert manny transition
+
 frog-sama: I want to be with my loveeee
+[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+join bear-san center
+leave bear-san
+[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
 [wait time="1.0"]
 - potion of invisibility
 	set {helpedPrince} = true

@@ -22,4 +22,4 @@ name = "blob"
 base_scene = ExtResource("1_w256j")
 base_overrides = {}
 layers = Array[ExtResource("3_rt35v")]([SubResource("Resource_cp073"), SubResource("Resource_v7ybh")])
-metadata/_latest_layer = 0
+metadata/_latest_layer = 1

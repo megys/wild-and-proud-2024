@@ -1,6 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://0lmotf0aqofp"]
-
-[ext_resource type="Script" path="res://Scene/MainMenu/MainMenu.gd" id="1_itigu"]
+[gd_scene load_steps=3 format=3 uid="uid://dqfufje83lbnc"]
 
 [sub_resource type="Gradient" id="Gradient_74s1r"]
 colors = PackedColorArray(0, 0, 1, 1, 1, 1, 1, 1)
@@ -15,8 +13,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_itigu")
-file_path = "res://Scene/Story/Story.tscn"
 
 [node name="BackGround" type="TextureRect" parent="."]
 layout_mode = 1

@@ -44,7 +44,7 @@ variables={
 "helpedPrince": false
 }
 extensions_folder="res://addons/dialogic_additions"
-text/letter_speed=0.01
+text/letter_speed=0.03
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
 text/advance_delay=0.1
@@ -62,6 +62,9 @@ choices/reveal_by_input=false
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
+glossary/default_case_sensitive=true
+animations/leave_default="res://addons/dialogic/Modules/Character/DefaultAnimations/fade_in_out.gd"
+animations/cross_fade_default="res://addons/dialogic/Modules/Character/DefaultAnimations/instant_in_out.gd"
 
 [editor_plugins]
 

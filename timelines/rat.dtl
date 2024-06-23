@@ -1,6 +1,61 @@
-mouse-san: THE SPICES!
+# insert manny transition
+
+[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+Another customer!
+[wait_input]
+...
 [wait time="1.0"]
-- potion of ice
-- potion of fire
+Has a ghost entered into my shop?
+
+join bear-san center
+Oh!
+mouse-san: Hello potion dispenser, *sniffle sniffle*
+Hello, welcome to my potion shop how can I help you?
+mouse-san (happy): blankly stares* hello HIIIIIIIIIIIIIIIII. I generally dont really fuck with you potion brewing lot, but r-r-right now I need you.
+
+Oh well, I am to be of service! How can I help you?
+
+mouse-san: ever since this shit-fuck of a king laid down this “no spice rule” ive had a hard time keeping customers… heh. Heh. *looks into the distance*
+
+Oh thats very troublesome! How can I help you?
+
+mouse-san: Yeah you know it, I-I-I am running even low on my personal stash you know? Yeah you know. Heh. Yeah. anyways I was hoping that you could help me with you know. Yeah my stash problem.
+
+Yeah! I have a stash of potions just for you! How can I help you?
+
+mouse-san: So ive been thinking this “rule” shit this king put down I need something… stronger… show that autocrat asshole what for. Telling me about the “dish of the future” ice cream. ICE CREAM? FUCKER I WILL ICE YOUR RULE SO HARD YOULL ONLY REMEMBER PEACE AS THE TIME BEFORE THE WAR STARTED…
+
+[i]This is not what I expected from my clientele.[/i]
+
+mouse-san: A potion is what I need… something to keep the [b]SPICE[/b] in my 5 rat-wheel start rated restaurant. I haven’t had a sweet taste in… in…
+
+mouse-san (angry): Please I just need a potion that can help me, I need to get a kick, just a little…
+
+Ok I think I can help you!
+[wait time="1.0"]
+- Potion of Ice
+	
+	# #Potion of Ice\: The king was right, this rat spells danger for us all, I will end the rats spice career…
+	*takes out of your hand before you have a chance to even say anything*
+	*takes sip*
+	It looks as if their eyes look as if an Ice Age has run its course, one thousand times over - but over merely over the course of a second.
+	leave bear-san
+	I feel my fingertips get warmer for every footfall he takes towards the door.
+	[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+	I think his days of doing business in a kitchen are over.
+	even working an ice cream now will warm him on the most bitter cold of day…
+- Potion of Fire
+	# #Potion of Fire\: I feel bad about his small business… I should give the rat the fire to blaze his kitchen anew
 	set {antiKingPoints} += 1
+	*takes out of your hand before you have a chance to even say anything*
+	*takes sip*
+	WHAT… why in god's green earth WOULD YOU GIVE ME THIS ICE SHIT.
+	Wait.. Wait… Wait… its… I feel it. My spice, my life. MY SMALL BUSINESS!!!
+	MAY MY KITCHEN WAFT THE ENTIRE KINGDOM!!!
+	leave bear-san
+	[wait time="3.0"]
+	
+	[sound path="res://sound assets/bellChime.mp3" volume="0.0"]
+
+
 jump prince/

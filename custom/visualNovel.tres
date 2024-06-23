@@ -29,7 +29,13 @@ overrides = {}
 [sub_resource type="Resource" id="Resource_wfw06"]
 script = ExtResource("2_u6th1")
 scene = ExtResource("5_7mtu2")
-overrides = {}
+overrides = {
+"bold_font": "\"res://art assets/font/Comfortaa-VariableFont_wght.ttf\"",
+"bold_italics_font": "\"res://art assets/font/Comfortaa-VariableFont_wght.ttf\"",
+"italics_font": "\"res://art assets/font/Comfortaa-VariableFont_wght.ttf\"",
+"name_label_font": "\"res://art assets/font/Comfortaa-VariableFont_wght.ttf\"",
+"normal_font": "\"res://art assets/font/Comfortaa-VariableFont_wght.ttf\""
+}
 
 [sub_resource type="Resource" id="Resource_lo87a"]
 script = ExtResource("2_u6th1")
@@ -39,7 +45,9 @@ overrides = {}
 [sub_resource type="Resource" id="Resource_hfuwu"]
 script = ExtResource("2_u6th1")
 scene = ExtResource("7_x4r46")
-overrides = {}
+overrides = {
+"font_custom": "\"res://art assets/font/Comfortaa-VariableFont_wght.ttf\""
+}
 
 [sub_resource type="Resource" id="Resource_11cmn"]
 script = ExtResource("2_u6th1")
@@ -56,4 +64,4 @@ script = ExtResource("10_gd7d6")
 name = "visualNovel"
 base_overrides = {}
 layers = Array[ExtResource("2_u6th1")]([SubResource("Resource_47emy"), SubResource("Resource_164v4"), SubResource("Resource_y4e07"), SubResource("Resource_wfw06"), SubResource("Resource_lo87a"), SubResource("Resource_hfuwu"), SubResource("Resource_11cmn"), SubResource("Resource_epei3")])
-metadata/_latest_layer = 5
+metadata/_latest_layer = 3

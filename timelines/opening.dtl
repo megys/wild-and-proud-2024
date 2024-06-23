@@ -1,7 +1,18 @@
+[style name="visualNovel"]
+[background arg="res://art assets/IMG_4407.png" fade="0.0"]
 set {antiKingPoints} = 0
 # once you get 2 points you unlock the good end
 
-Once upon a time in a land far far away
-There lived a humble alchemist working for the Kingdom of Froggert
+[i]Today’s my first day as the kingdoms's alchemist![/i]
+
+This alchemy shop has been in my family for generations.
+
+We’ve served the good people of this kingdom for hundreds of years\: keeping crops growing during droughts, helping kings sire heirs.
+
+And since Uncle went missing, it’s finally my turn to run the shop!
+
+I just hope I can do a good job.
+
+
 
 jump bear/
