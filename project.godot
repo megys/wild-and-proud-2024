@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 Settings="*res://Autoloads/settings.tscn"
+PotionPopup="*res://Autoloads/potion popup/potion_popup.tscn"
 
 [dialogic]
 
