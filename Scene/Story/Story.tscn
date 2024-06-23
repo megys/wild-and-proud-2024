@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://be82fvc7dnf53"]
+
+[ext_resource type="Script" path="res://Scene/Story/Story.gd" id="1_xrmqw"]
+
+[node name="Story" type="Node2D"]
+script = ExtResource("1_xrmqw")
+timeline_path = "res://timelines/opening.dtl"
+main_menu_filepath = "res://Scene/MainMenu/MainMenu.tscn"
