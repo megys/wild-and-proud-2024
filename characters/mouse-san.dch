@@ -13,7 +13,7 @@
 "display_name": "mouse-san",
 "mirror": false,
 "nicknames": [""],
-"offset": Vector2(0, 0),
+"offset": Vector2(0, -70),
 "portraits": {
 "angry": {
 "export_overrides": {
@@ -44,5 +44,5 @@
 "scene": ""
 }
 },
-"scale": 0.8
+"scale": 0.6
 }

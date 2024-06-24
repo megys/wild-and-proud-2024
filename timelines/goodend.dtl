@@ -1,3 +1,57 @@
 [style name="visualNovel"]
-you are thrown in jail
+[background arg="res://art assets/IMG_4473.png" fade="1.0"]
+join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
+
+[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
+[wait time="1.0"]
+join bear-san center
+I can't believe it… his majesty has entered the potion shop...
+
+king-sama: I smell treachery… T-R-E-E-T-C-H-R-E-Y.
+That-th- thats not how you spell-
+king-sama: I smell chaos, I smell fear, fear in the streets. Do I smell fear in you?
+!!!
+king-sama: If you value your life, you will soon learn obedience to your ruler.
+king-sama: I have been chosen by forces beyond your comprehension to rule over this land, and [b]I WILL NOT[/b] stand for such treachery to become the norm.
+king-sama: I will not allow anyone to disobey me.
+if {helpedPrince} == true:
+	king-sama: I know it was you that helped the prince escape.
+	king-sama: You didn't think your paltry attempts at valiance would go unpunished?!
+	king-sama: You are no hero!
+else:
+	king-sama: The trick you pulled on the prince, foiling his plans to escape, that has not gone unnoticed.
+	king-sama: But don't think that negates the mayhem you have unleashed upon my kingdom!
+
+king-sama: Take one last look at the sun. It will be the last time you will see it before the sun sets on your life in my [b]mega-prison-industrial complex![/b]
+Oh no! Not the mega-prison-industrial complex!
+leave bear-san
+
+# EPILOGUE
+[background arg="res://art assets/black.png" fade="1.0"]
+leave table-kun [animation="Fade In Out" length="1.0"]
+
+After I was thrown into the mega-prison-industrial complex, I thought my life was over.
+Most of us there were wrongfully accused, punished for meager crimes, or simply the victim of the king’s flippant whims.
+One guy was even thrown in for dabbing! (turns out that’s where my Uncle went) Understandable though, because cringe.
+
+
+I hadn’t seen the sun in so long, I wasn’t sure how much time had passed. A week? A month? A year?
+
+But one day, after living in that squalor for so long, being fed horse straw every few hours, the gates opened! We were free!
+
+It turns out, the citizens had revolted against the king!
+
+Tired of his wickedness and corruption, they launched a revolution and established a democracy headed by none other than the prince himself!
+
+As punishment, Uncle transmogrified the king into a hideous beast, and went off to travel the world, running a circus sideshow with the beast king as the main attraction.
+
+As for me, I continued to run the potion shop on my own, helping any and every person who sought my help!
+
+if {helpedPrince} == true:
+	The prince even promoted me to royal alchemist as thanks for helping him and Mr. Toad.
+
+Under the benevolent rule of the President Prince and his husband Mr. Toad, the kingdom and its citizens lived happily ever after.
+
+
+[wait time="1.0"]
 [end_timeline]

@@ -1,5 +1,6 @@
 [style name="visualNovel"]
-[background arg="res://art assets/IMG_4407.png" fade="1.0"]
+[background arg="res://art assets/IMG_4473.png" fade="1.0"]
+join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 set {antiKingPoints} = 0
 set {helpedPrince} = false
 # once you get 2 points you unlock the good end
@@ -10,7 +11,7 @@ This alchemy shop has been in my family for generations.
 
 We’ve served the good people of this kingdom for hundreds of years\: keeping crops growing during droughts, helping kings sire heirs.
 
-And since Uncle went missing, it’s finally my turn to run the shop!
+And since Uncle went missing, I've been promoted from apprentice, and it’s finally my turn to run the shop!
 
 I just hope I can do a good job.
 

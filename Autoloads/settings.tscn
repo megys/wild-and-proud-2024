@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://u7wcdasskcgs"]
+[gd_scene load_steps=3 format=3 uid="uid://u7wcdasskcgs"]
 
 [ext_resource type="Script" path="res://Autoloads/settings.gd" id="1_67mfn"]
+[ext_resource type="Texture2D" uid="uid://drnvs3dkkfcqs" path="res://art assets/sound.png" id="2_mcv2t"]
 
 [node name="Settings" type="CanvasLayer"]
 layer = 5
@@ -9,18 +10,21 @@ script = ExtResource("1_67mfn")
 [node name="HSlider" type="HSlider" parent="."]
 unique_name_in_owner = true
 visible = false
-offset_left = 5.0
-offset_top = 63.0
-offset_right = 344.0
-offset_bottom = 79.0
+offset_left = 60.0
+offset_top = 14.0
+offset_right = 399.0
+offset_bottom = 30.0
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 offset_right = 111.0
 offset_bottom = 87.0
 
 [node name="Button" type="Button" parent="."]
-offset_right = 76.0
-offset_bottom = 52.0
+offset_right = 49.0
+offset_bottom = 42.0
+icon = ExtResource("2_mcv2t")
+flat = true
+expand_icon = true
 
 [connection signal="drag_ended" from="HSlider" to="." method="_on_h_slider_drag_ended"]
 [connection signal="value_changed" from="HSlider" to="." method="_on_h_slider_value_changed"]

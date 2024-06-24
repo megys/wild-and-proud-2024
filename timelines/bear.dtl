@@ -1,5 +1,6 @@
 [style name="visualNovel"]
-[background arg="res://art assets/IMG_4407.png" fade="1.0"]
+[background arg="res://art assets/IMG_4473.png" fade="1.0"]
+join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 [sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
 join bear-san center
@@ -26,8 +27,12 @@ bear-san (sad): Do you know how much work it would take to paint even one portra
 bear-san (sad): It took me one year before he was satisfied with the portrait I made for him! The flower festival is next month!
 bear-san (neutral): So, do you think you could help me?
 Let me see what I have!
+do PotionPopup.show_potion("res://art assets/sound.png", "res://art assets/sound.png")
+do PotionPopup.set_titles("[center]Potion of Revival[/center]", "[center]Potion of Endurance[/center]")
+do PotionPopup.set_descriptions("He does make a good point. I should help the guild put on the flower festival despite the King’s allergies!", "I don’t want to defy the King… Maybe this can help the guild complete his portraits in time?")
 [wait time="1.0"]
 - Potion of Revival
+	do PotionPopup.clear_potion()
 	# Potion of Revival: He does make a good point. I should help the guild put on the flower festival despite the King’s allergies! 
 	set {antiKingPoints} += 1
 	You can use this potion of revival to bring your flowers back to life!
@@ -44,6 +49,7 @@ Let me see what I have!
 	[i]I hope everything goes well![/i]
 
 - Potion of Endurance
+	do PotionPopup.clear_potion()
 	# Potion of Endurance: I don’t want to defy the King… Maybe this can help the guild complete his portraits in time?
 	How about a potion of endurance?
 	By drinking this, you and the rest of your guild should have enough energy to complete his portraits in time! And it wouldn’t upset the king.
@@ -59,6 +65,6 @@ Let me see what I have!
 	[i]I hope everything goes well![/i]
 
 [background arg="res://art assets/black.png" fade="1.0"]
+leave table-kun [animation="Fade In Out" length="1.0"]
 [wait time="1.0"]
-
 jump rat/

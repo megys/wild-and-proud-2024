@@ -1,16 +1,26 @@
-[style name="visualNovel"]
-[background arg="res://art assets/IMG_4407.png" fade="1.0"]
-
-king-sama: I heard you been lurking....
-king-sama: I also heard my son visited here the other night
-if {helpedPrince} == true:
-	king-sama: Seems like he somehow got his hands on a potion of invisibility...
-	king-sama: I'm guessing you might know something about that, now wouldn't you?
-else:
-	king-sama: He thought he had a potion of invisibility, but turns out it was a potion of sleep.
-	king-sama: His lover was found waiting outside. We captured him of course.
-	king-sama: No son of mine will be dating a commoner!
 if {antiKingPoints} >= 2:
 	jump goodend/
-else:
+elif {antiKingPoints} == 0:
 	jump badend/
+
+[style name="visualNovel"]
+[background arg="res://art assets/IMG_4473.png" fade="1.0"]
+join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
+
+[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
+[wait time="1.0"]
+join bear-san center
+I can't believe it… his majesty has entered the potion shop...
+king-sama: I know what you have done, but I don’t know who you are...
+king-sama: What do you stand for?! Order and chaos? Pride and money?
+Sir-sir what are you-?
+king-sama: SILENCE.
+king-sama: Your job is to support your king. Do you know how much chaos you have caused?
+king-sama: No matter, your silly little shop will fall to the elements of capitalism.
+king-sama: Eventually, probably soon, the world will recognize your shop for what it is.
+king-sama: A pitiful disappointment.
+king-sama: You are not worthy of standing on my land.
+king-sama: You are simply. A bad potion shop.
+
+[wait time="1.0"]
+[end_timeline]

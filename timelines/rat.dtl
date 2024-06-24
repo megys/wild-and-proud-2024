@@ -1,15 +1,16 @@
 [style name="visualNovel"]
-[background arg="res://art assets/IMG_4407.png" fade="1.0"]
+[background arg="res://art assets/IMG_4473.png" fade="1.0"]
+join table-kun center [animation="Fade In Out" length="1.0" z_index="0"]
 
 [sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
-[i]Another customer![/i]
+[i]A customer![/i]
 [wait_input]
 ...
 [wait time="1.0"]
 [i]A ghost?[/i]
 [wait time="1.0"]
-join mouse-san center
+join mouse-san center [animation="Bounce In Out"]
 Oh!
 mouse-san: Hello potion dispenser, *sniffle sniffle*
 Hello, welcome to my potion shop how can I help you?
@@ -33,10 +34,15 @@ mouse-san (angry): So I've been thinking about this “rule” sh** this king pu
 mouse-san (angry): A potion is what I need… something to keep the [b]SPICE[/b] in my 5 rat-wheel star rated restaurant.
 
 Ok, I think I can help you!
+
+do PotionPopup.show_potion("res://art assets/sound.png", "res://art assets/sound.png")
+do PotionPopup.set_titles("[center]Potion of Ice[/center]", "[center]Potion of Fire[/center]")
+do PotionPopup.set_descriptions("The king was right this rat spells danger for us all. I will end the rats spice career...", "I feel bad about his small business... I should give the rat the fire to blaze his kitchen anew!")
+
 [wait time="1.0"]
 - Potion of Ice
 	
-	# #Potion of Ice\: The king was right, this rat spells danger for us all, I will end the rats spice career…
+	# #Potion of Ice: The king was right, this rat spells danger for us all. I will end the rats spice career...
 	He rips the potion out of my hand before I even have a chance to say anything.
 	*takes sip*
 	join mouse-san (neutral) center
@@ -49,7 +55,8 @@ Ok, I think I can help you!
 	[wait time="1.0"]
 	Did I just get robbed?
 - Potion of Fire
-	# #Potion of Fire\: I feel bad about his small business… I should give the rat the fire to blaze his kitchen anew
+	# #Potion of Fire: I feel bad about his small business... I should give the rat the fire to blaze his kitchen anew!
+	do PotionPopup.clear_potion()
 	set {antiKingPoints} += 1
 	join mouse-san (neutral) center
 	He rips the potion out of my hand before I even have a chance to say anything.
@@ -65,5 +72,6 @@ Ok, I think I can help you!
 	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 
 [background arg="res://art assets/black.png" fade="1.0"]
+leave table-kun [animation="Fade In Out" length="1.0"]
 [wait time="1.0"]
 jump prince/
