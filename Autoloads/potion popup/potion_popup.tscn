@@ -20,6 +20,7 @@ offset_bottom = 10.0
 mouse_filter = 2
 
 [node name="potion template" type="TextureRect" parent="thing1"]
+layout_mode = 0
 offset_left = -81.0
 offset_top = 33.0
 offset_right = 1075.0
