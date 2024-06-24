@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://o65px5ie4rxk"]
 
-[ext_resource type="Texture2D" uid="uid://clj3j602noxxy" path="res://art assets/potions/IMG_2540.PNG" id="1_pehos"]
-[ext_resource type="Texture2D" uid="uid://bcn4m7hvl1opb" path="res://art assets/potions/IMG_2542.PNG" id="2_p4gbw"]
-[ext_resource type="Texture2D" uid="uid://cb8wsbr4rba47" path="res://art assets/potions/IMG_2544.PNG" id="3_a7qem"]
-[ext_resource type="Texture2D" uid="uid://dfft8fawjth5i" path="res://art assets/potions/IMG_2543.PNG" id="4_e45ry"]
+[ext_resource type="Texture2D" uid="uid://clj3j602noxxy" path="res://art assets/potions/endurance.PNG" id="1_pehos"]
+[ext_resource type="Texture2D" uid="uid://bcn4m7hvl1opb" path="res://art assets/potions/invisibility.PNG" id="2_p4gbw"]
+[ext_resource type="Texture2D" uid="uid://cb8wsbr4rba47" path="res://art assets/potions/revival.PNG" id="3_a7qem"]
+[ext_resource type="Texture2D" uid="uid://dfft8fawjth5i" path="res://art assets/potions/fire.PNG" id="4_e45ry"]
 
 [sub_resource type="Animation" id="Animation_kulq4"]
 resource_name = "IdleAnim"

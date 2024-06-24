@@ -47,6 +47,7 @@ overrides = {}
 script = ExtResource("2_u6th1")
 scene = ExtResource("7_x4r46")
 overrides = {
+"boxes_v_separation": "15.0",
 "font_custom": "\"res://art assets/font/Nunito-Regular.ttf\""
 }
 
@@ -65,4 +66,4 @@ script = ExtResource("10_gd7d6")
 name = "visualNovel"
 base_overrides = {}
 layers = Array[ExtResource("2_u6th1")]([SubResource("Resource_47emy"), SubResource("Resource_164v4"), SubResource("Resource_y4e07"), SubResource("Resource_wfw06"), SubResource("Resource_lo87a"), SubResource("Resource_hfuwu"), SubResource("Resource_11cmn"), SubResource("Resource_epei3")])
-metadata/_latest_layer = 3
+metadata/_latest_layer = 5

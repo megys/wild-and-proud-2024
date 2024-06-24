@@ -40,7 +40,7 @@ directories/dtl_directory={
 "prince": "res://timelines/prince.dtl",
 "rat": "res://timelines/rat.dtl"
 }
-layout/style_list=["res://custom/visualNovel.tres", "res://custom/blob.tres"]
+layout/style_list=["res://custom/visualNovel.tres"]
 layout/default_style=""
 variables={
 "antiKingPoints": 0,

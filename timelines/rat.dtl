@@ -35,7 +35,7 @@ mouse-san (angry): A potion is what I need… something to keep the [b]SPICE[/b]
 
 Ok, I think I can help you!
 
-do PotionPopup.show_potion("res://art assets/sound.png", "res://art assets/sound.png")
+do PotionPopup.show_potion("res://art assets/sound.png", "res://art assets/potions/fire.PNG")
 do PotionPopup.set_titles("[center]Potion of Ice[/center]", "[center]Potion of Fire[/center]")
 do PotionPopup.set_descriptions("The king was right this rat spells danger for us all. I will end the rats spice career...", "I feel bad about his small business... I should give the rat the fire to blaze his kitchen anew!")
 
@@ -43,6 +43,7 @@ do PotionPopup.set_descriptions("The king was right this rat spells danger for u
 - Potion of Ice
 	
 	# #Potion of Ice: The king was right, this rat spells danger for us all. I will end the rats spice career...
+	do PotionPopup.clear_potion()
 	He rips the potion out of my hand before I even have a chance to say anything.
 	*takes sip*
 	join mouse-san (neutral) center

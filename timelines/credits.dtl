@@ -1,1 +1,7 @@
-
+[style name="visualNovel"]
+[background arg="res://art assets/creditsPage.png" fade="1.0"]
+[wait_input]
+Potion Promotion was made for the 2024 Godot Wild and Proud Mini Jam.
+Thank you for playing Potion Promotion! We hope you enjoyed our game! \:)
+[wait_input]
+[end_timeline]

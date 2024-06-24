@@ -4,25 +4,25 @@ join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 
 [sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
-join bear-san center
+join frog-sama (neutral) center
 [i]The Prince?![/i]
 Hello, your highness! What brings you here to my humble shop?
 frog-sama: I am in desp'rate necessity of thy assistance.
-frog-sama: I am in the throes of a love which cannot be.
+frog-sama (sob): I am in the throes of a love which cannot be.
 frog-sama: The course of true love never did run smooth…
-frog-sama: Nevertheless, my love for him is stronger than the tides, more persistent than daybreak, and even sweeter than the pastries in his bakery.
+frog-sama (neutral): Nevertheless, my love for him is stronger than the tides, more persistent than daybreak, and even sweeter and softer than the bread in his boulangerie.
 The baker? You’re in love with Mr. Toad?
 [i] That's such tea! [/i]
-frog-sama: It is so. Our love burns so bright that even the heavens above taketh notice.
-frog-sama: But mine father shall not alloweth me to date a commoner.
-frog-sama: I can't beest did hold backeth aught longer! I must escapeth tonight! To meeteth mine loveth in the moonlight!
-frog-sama: Doth thee has't a elixir yond can aid in mine endeavor?
+frog-sama (happy): It is so. Our love burns so bright that even the heavens above taketh notice.
+frog-sama (neutral): But mine father shall not alloweth me to date a commoner.
+frog-sama (sob): I can't beest did hold backeth aught longer! I must escapeth tonight! To meeteth mine loveth in the moonlight!
+frog-sama (neutral): Doth thee has't a elixir yond can aid in mine endeavor?
 I’m sure I have something but… what will the King say when he finds you missing?
 frog-sama: Mine father wouldst beest outraged, but yond is a bawbling price to payeth for true love.
 [i]I can’t say no to the prince...[/i]
 [i]But how can I oppose the king’s word?[/i]
 
-do PotionPopup.show_potion("res://art assets/sound.png", "res://art assets/sound.png")
+do PotionPopup.show_potion("res://art assets/potions/invisibility.PNG", "res://art assets/sound.png")
 do PotionPopup.set_titles("[center]Potion of Invisibility[/center]", "[center]Potion of Sleep[/center]")
 do PotionPopup.set_descriptions("I should support the prince and his love! This should help him escape.", "Who knows what would happen to the kingdom if the prince goes missing. I’ll have to trick him…")
 [wait time="1.0"]
@@ -33,14 +33,14 @@ do PotionPopup.set_descriptions("I should support the prince and his love! This 
 	set {antiKingPoints} += 1
 	Please take this potion of invisibility!
 	The two of you should take this right before you make your escape.
-	frog-sama: I can no other answer make but thanks, and thanks, and ever thanks.
+	frog-sama (happy): I can no other answer make but thanks, and thanks, and ever thanks.
 	*He hands you a velvet pouch, heavy with dabloons*
 	Wow! Thank you, your highness!
-	frog-sama: There is thy gold, worse poison to men’s souls. Doing more murder in this loathsome world, Than these poor compounds that thou mayst not sell…
-	frog-sama: Toad, mine love, we shalt beest togeth'r soon!
-	frog-sama: With love's light wings did I o'erperch these walls, for stony limits cannot hold love out, And what love can do, that dares love attempt.
+	frog-sama (neutral): There is thy gold, worse poison to men’s souls. Doing more murder in this loathsome world, Than these poor compounds that thou mayst not sell…
+	frog-sama (sob): Toad, mine love, we shalt beest togeth'r soon!
+	frog-sama (happy): With love's light wings did I o'erperch these walls, for stony limits cannot hold love out, And what love can do, that dares love attempt.
 	
-	leave bear-san
+	leave frog-sama
 	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 	
 	[i]I hope that their love will prevail![/i]
@@ -54,14 +54,14 @@ do PotionPopup.set_descriptions("I should support the prince and his love! This 
 	...
 	Invisibility!
 	The two of you should take this right before you make your escape.
-	frog-sama: I can no other answer make but thanks, and thanks, and ever thanks.
+	frog-sama (happy): I can no other answer make but thanks, and thanks, and ever thanks.
 	*He hands you a velvet pouch, heavy with dabloons*
 	Oh wow… This is too kind!
-	frog-sama: There is thy gold, worse poison to men’s souls. Doing more murder in this loathsome world, Than these poor compounds that thou mayst not sell…
-	frog-sama: Toad, mine love, we shalt beest togeth'r soon!
-	frog-sama: With love's light wings did I o'erperch these walls, for stony limits cannot hold love out, And what love can do, that dares love attempt.
+	frog-sama (neutral): There is thy gold, worse poison to men’s souls. Doing more murder in this loathsome world, Than these poor compounds that thou mayst not sell…
+	frog-sama (sob): Toad, mine love, we shalt beest togeth'r soon!
+	frog-sama (happy): With love's light wings did I o'erperch these walls, for stony limits cannot hold love out, And what love can do, that dares love attempt.
 	
-	leave bear-san
+	leave frog-sama
 	[sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 	
 	[i]Now the guards will surely catch them...[/i]

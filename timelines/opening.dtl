@@ -1,3 +1,4 @@
+[music path="res://sound assets/game.mp3" fade="0.0" volume="-25.0"]
 [style name="visualNovel"]
 [background arg="res://art assets/BG.PNG" fade="0.0"]
 join table-kun center [animation="Fade In Out" length="0.0" z_index="1"]

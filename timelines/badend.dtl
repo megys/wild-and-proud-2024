@@ -1,25 +1,27 @@
 [style name="visualNovel"]
 [background arg="res://art assets/BG.PNG" fade="1.0"]
+[music fade="2.0" volume="0.0"]
+[music path="res://sound assets/game2.mp3" fade="0.0" volume="-25.0"]
 join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 
 [sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
-join bear-san center
+join king-sama (neutral) center
 I can't believe it… his majesty has entered the potion shop...
 
 Mr King its an hono-
-king-sama: You, you are a true hero. I recognize your efforts to serve your king.
+king-sama (smirk): You, you are a true hero. I recognize your efforts to serve your king.
 king-sama: The trick you pulled on the prince, foiling his plans to escape, that has not gone unnoticed. Good work.
 Th-Thank you, your Majesty! I have tried so hard to serve you well!
-king-sama: Oh this potion shop. It is such a far walk... Maps says it takes a 15 minute walk to get here... That is much too far, much too far...
+king-sama (neutral): Oh this potion shop. It is such a far walk... Maps says it takes a 15 minute walk to get here... That is much too far, much too far...
 Oh I am so sorry your Majesty! It is  such a far walk from your palace.
-king-sama: That is why I am promoting you… to courtside potion master!
+king-sama (smirk): That is why I am promoting you… to courtside potion master!
 WHAT?!
 Your Majesty, I have just started this position. How can I be prepared for such an undertaking?
-king-sama: Oh, sure you are. Plus there has been a recent... vacancy... if you catch my drift.
+king-sama (neutral): Oh, sure you are. Plus there has been a recent... vacancy... if you catch my drift.
 !!!
 Oh, well- Well of course I accept this position!
-leave bear-san
+leave king-sama
 
 # EPILOGUE
 [background arg="res://art assets/black.png" fade="1.0"]
@@ -33,4 +35,4 @@ I see those in the streets and they cry tears of joy as I walk by, they feel the
 This kingdom, and most importantly, [b]my king[/b] will live truly happily ever after!
 
 [wait time="1.0"]
-[end_timeline]
+jump credits/

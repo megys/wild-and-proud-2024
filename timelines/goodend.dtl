@@ -1,10 +1,12 @@
 [style name="visualNovel"]
 [background arg="res://art assets/BG.PNG" fade="1.0"]
+[music fade="2.0" volume="0.0"]
+[music path="res://sound assets/game2.mp3" fade="2.0" volume="-25.0"]
 join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 
 [sound path="res://sound assets/bellChime.mp3" volume="-40.0"]
 [wait time="1.0"]
-join bear-san center
+join king-sama (angry) center
 I can't believe it… his majesty has entered the potion shop...
 
 king-sama: I smell treachery… T-R-E-E-T-C-H-R-E-Y.
@@ -12,19 +14,19 @@ That-th- thats not how you spell-
 king-sama: I smell chaos, I smell fear, fear in the streets. Do I smell fear in you?
 !!!
 king-sama: If you value your life, you will soon learn obedience to your ruler.
-king-sama: I have been chosen by forces beyond your comprehension to rule over this land, and [b]I WILL NOT[/b] stand for such treachery to become the norm.
+king-sama (smirk): I have been chosen by forces beyond your comprehension to rule over this land, and [b]I WILL NOT[/b] stand for such treachery to become the norm.
 king-sama: I will not allow anyone to disobey me.
 if {helpedPrince} == true:
-	king-sama: I know it was you that helped the prince escape.
+	king-sama (angry): I know it was you that helped the prince escape.
 	king-sama: You didn't think your paltry attempts at valiance would go unpunished?!
-	king-sama: You are no hero!
+	king-sama (smirk): You are no hero!
 else:
-	king-sama: The trick you pulled on the prince, foiling his plans to escape, that has not gone unnoticed.
-	king-sama: But don't think that negates the mayhem you have unleashed upon my kingdom!
+	king-sama (angry): The trick you pulled on the prince, foiling his plans to escape, that has not gone unnoticed.
+	king-sama (smirk): But don't think that negates the mayhem you have unleashed upon my kingdom!
 
 king-sama: Take one last look at the sun. It will be the last time you will see it before the sun sets on your life in my [b]mega-prison-industrial complex![/b]
 Oh no! Not the mega-prison-industrial complex!
-leave bear-san
+leave king-sama
 
 # EPILOGUE
 [background arg="res://art assets/black.png" fade="1.0"]
@@ -36,6 +38,9 @@ One guy was even thrown in for dabbing! (turns out that’s where my Uncle went)
 
 
 I hadn’t seen the sun in so long, I wasn’t sure how much time had passed. A week? A month? A year?
+
+[music fade="2.0" volume="0.0"]
+[music path="res://sound assets/game.mp3" fade="2.0" volume="-25.0"]
 
 But one day, after living in that squalor for so long, being fed horse straw every few hours, the gates opened! We were free!
 
@@ -54,4 +59,4 @@ Under the benevolent rule of the President Prince and his husband Mr. Toad, the 
 
 
 [wait time="1.0"]
-[end_timeline]
+jump credits/

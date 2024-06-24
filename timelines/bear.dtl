@@ -27,7 +27,7 @@ bear-san (sad): Do you know how much work it would take to paint even one portra
 bear-san (sad): It took me one year before he was satisfied with the portrait I made for him! The flower festival is next month!
 bear-san (neutral): So, do you think you could help me?
 Let me see what I have!
-do PotionPopup.show_potion("res://art assets/sound.png", "res://art assets/sound.png")
+do PotionPopup.show_potion("res://art assets/potions/revival.PNG", "res://art assets/potions/end.PNG")
 do PotionPopup.set_titles("[center]Potion of Revival[/center]", "[center]Potion of Endurance[/center]")
 do PotionPopup.set_descriptions("He does make a good point. I should help the guild put on the flower festival despite the King’s allergies!", "I don’t want to defy the King… Maybe this can help the guild complete his portraits in time?")
 [wait time="1.0"]
