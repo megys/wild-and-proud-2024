@@ -3,7 +3,7 @@ if {antiKingPoints} >= 2:
 elif {antiKingPoints} == 0:
 	jump badend/
 
-[style name="visualNovel"]
+[style name="credits"]
 [background arg="res://art assets/BG.PNG" fade="1.0"]
 [music fade="2.0" volume="0.0"]
 [music path="res://sound assets/game2.mp3" fade="0.0" volume="-25.0"]
@@ -20,9 +20,13 @@ king-sama (smirk): SILENCE.
 king-sama: Your job is to support your king. Do you know how much chaos you have caused?
 king-sama (neutral): No matter, your silly little shop will fall to the elements of capitalism.
 king-sama: Eventually, probably soon, the world will recognize your shop for what it is.
-king-sama: A pitiful disappointment.
+king-sama (smirk): A pitiful disappointment.
 king-sama: You are not worthy of standing on my land.
-king-sama: You are simply. A bad potion shop.
+king-sama (angry): You are simply. A bad potion shop.
+
+leave king-sama
+[background arg="res://art assets/black.png" fade="1.0"]
+leave table-kun [animation="Fade In Out" length="1.0"]
 
 [wait time="1.0"]
 jump credits/

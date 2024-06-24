@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://o65px5ie4rxk"]
 
 [ext_resource type="Texture2D" uid="uid://clj3j602noxxy" path="res://art assets/potions/endurance.PNG" id="1_pehos"]
-[ext_resource type="Texture2D" uid="uid://bcn4m7hvl1opb" path="res://art assets/potions/invisibility.PNG" id="2_p4gbw"]
+[ext_resource type="Texture2D" uid="uid://beuh0687afpip" path="res://art assets/potions/ice.PNG" id="2_4sohv"]
 [ext_resource type="Texture2D" uid="uid://cb8wsbr4rba47" path="res://art assets/potions/revival.PNG" id="3_a7qem"]
 [ext_resource type="Texture2D" uid="uid://dfft8fawjth5i" path="res://art assets/potions/fire.PNG" id="4_e45ry"]
 
@@ -155,7 +155,7 @@ texture = ExtResource("1_pehos")
 [node name="Img2542" type="Sprite2D" parent="."]
 position = Vector2(919, 64)
 scale = Vector2(0.31, 0.31)
-texture = ExtResource("2_p4gbw")
+texture = ExtResource("4_e45ry")
 
 [node name="Img2544" type="Sprite2D" parent="."]
 position = Vector2(180, 59)
@@ -165,4 +165,4 @@ texture = ExtResource("3_a7qem")
 [node name="Img2543" type="Sprite2D" parent="."]
 position = Vector2(934, 623)
 scale = Vector2(0.31, 0.31)
-texture = ExtResource("4_e45ry")
+texture = ExtResource("2_4sohv")

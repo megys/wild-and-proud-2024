@@ -1,4 +1,4 @@
-[style name="visualNovel"]
+[style name="credits"]
 [background arg="res://art assets/BG.PNG" fade="1.0"]
 [music fade="2.0" volume="0.0"]
 [music path="res://sound assets/game2.mp3" fade="2.0" volume="-25.0"]

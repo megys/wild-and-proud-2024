@@ -1,4 +1,4 @@
-[style name="visualNovel"]
+[style name="credits"]
 [background arg="res://art assets/BG.PNG" fade="1.0"]
 join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 [sound path="res://sound assets/bellChime.mp3" volume="-40.0"]

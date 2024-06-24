@@ -10,10 +10,11 @@ config_version=5
 
 [application]
 
-config/name="WNP24"
+config/name="Potion Promotion"
+config/description="Do you choose to support the king or the kingdom?!"
 run/main_scene="res://Scene/MainMenu/MainMenu.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://art assets/App Icon.PNG"
 
 [autoload]
 
@@ -40,7 +41,7 @@ directories/dtl_directory={
 "prince": "res://timelines/prince.dtl",
 "rat": "res://timelines/rat.dtl"
 }
-layout/style_list=["res://custom/visualNovel.tres"]
+layout/style_list=["res://custom/visualNovel.tres", "res://custom/credits.tres"]
 layout/default_style=""
 variables={
 "antiKingPoints": 0,
@@ -71,7 +72,6 @@ animations/cross_fade_default="res://addons/dialogic/Modules/Character/DefaultAn
 
 [display]
 
-window/size/resizable=false
 window/stretch/mode="canvas_items"
 
 [editor_plugins]

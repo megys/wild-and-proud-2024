@@ -262,7 +262,8 @@ mouse_filter = 2
 
 [node name="DialogTextPanel" type="PanelContainer" parent="Anchor/AnimationParent/Sizer"]
 unique_name_in_owner = true
-self_modulate = Color(0.00784314, 0.00784314, 0.00784314, 0.843137)
+modulate = Color(1, 1, 1, 0.772549)
+self_modulate = Color(0.00784314, 0.00784314, 0.00784314, 0.784314)
 custom_minimum_size = Vector2(300, 50)
 layout_mode = 1
 anchors_preset = 15
@@ -324,7 +325,7 @@ mouse_filter = 2
 
 [node name="NameLabelPanel" type="PanelContainer" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/NameLabelHolder"]
 unique_name_in_owner = true
-self_modulate = Color(0.00784314, 0.00784314, 0.00784314, 0.843137)
+self_modulate = Color(0.00784314, 0.00784314, 0.00784314, 0.784314)
 layout_mode = 1
 offset_top = -50.0
 offset_right = 9.0

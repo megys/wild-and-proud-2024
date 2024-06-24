@@ -1,4 +1,4 @@
-[style name="visualNovel"]
+[style name="credits"]
 [background arg="res://art assets/BG.PNG" fade="1.0"]
 join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
 
@@ -22,11 +22,11 @@ frog-sama: Mine father wouldst beest outraged, but yond is a bawbling price to p
 [i]I can’t say no to the prince...[/i]
 [i]But how can I oppose the king’s word?[/i]
 
-do PotionPopup.show_potion("res://art assets/potions/invisibility.PNG", "res://art assets/sound.png")
+do PotionPopup.show_potion("res://art assets/potions/invisibility.PNG", "res://art assets/potions/sleep.PNG")
 do PotionPopup.set_titles("[center]Potion of Invisibility[/center]", "[center]Potion of Sleep[/center]")
 do PotionPopup.set_descriptions("I should support the prince and his love! This should help him escape.", "Who knows what would happen to the kingdom if the prince goes missing. I’ll have to trick him…")
 [wait time="1.0"]
-- potion of invisibility
+- Potion of Invisibility
 	# #Potion of Invisibility: I should support the prince and his love! This should help him escape.
 	do PotionPopup.clear_potion()
 	set {helpedPrince} = true
@@ -47,7 +47,7 @@ do PotionPopup.set_descriptions("I should support the prince and his love! This 
 	[i]But what should I do if the King finds out I helped them?![/i]
 	[i]To flee or not to flee, that is the question.[/i]
 
-- potion of sleep
+- Potion of Sleep
 	# Potion of Sleep: Who knows what would happen to the kingdom if the prince goes missing. I’ll have to trick him…
 	do PotionPopup.clear_potion()
 	Please take this potion of... umm...
@@ -69,5 +69,6 @@ do PotionPopup.set_descriptions("I should support the prince and his love! This 
 
 [background arg="res://art assets/black.png" fade="1.0"]
 leave table-kun [animation="Fade In Out" length="1.0"]
+[music fade="2.0" volume="0.0"]
 [wait time="1.0"]
 jump ending/
