@@ -17,7 +17,7 @@
 "portraits": {
 "solemn": {
 "export_overrides": {
-"image": "\"res://art assets/IMG_4474.png\""
+"image": "\"res://art assets/Table.PNG\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

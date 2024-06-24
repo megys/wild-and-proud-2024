@@ -29,3 +29,8 @@ func _on_h_slider_value_changed(value: float) -> void:
 	var volume_db = linear_to_db(value / 100.0)
 
 	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Master"), volume_db)
+
+
+func _on_texture_button_pressed():
+	%HSlider.visible = !%HSlider.visible  
+	pass # Replace with function body.

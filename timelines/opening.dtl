@@ -1,6 +1,6 @@
 [style name="visualNovel"]
-[background arg="res://art assets/IMG_4473.png" fade="1.0"]
-join table-kun center [animation="Fade In Out" length="1.0" z_index="1"]
+[background arg="res://art assets/BG.PNG" fade="0.0"]
+join table-kun center [animation="Fade In Out" length="0.0" z_index="1"]
 set {antiKingPoints} = 0
 set {helpedPrince} = false
 # once you get 2 points you unlock the good end
